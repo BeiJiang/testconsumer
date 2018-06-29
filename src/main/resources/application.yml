@@ -1,0 +1,16 @@
+#服务端口
+server:
+  port: 8082
+
+#默认使用配置
+spring:
+  profiles:
+     active: local
+#  dubbo:
+#     application:
+#        name: testconsumer
+#      registry:
+#        address: zookeeper://127.0.0.1:2181
+#      protocol:
+#        name: dubbo
+#        port: 20880
